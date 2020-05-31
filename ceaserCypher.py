@@ -2,6 +2,7 @@ from string import ascii_lowercase as lwc
 
 
 def encrypt(step, word):
+    # Take a ceasar index step and word an return encrypted word
     newWord = ''
     for letter in word:
         letterIndex = lwc.find(letter)
